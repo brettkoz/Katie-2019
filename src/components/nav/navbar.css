@@ -1,0 +1,168 @@
+.appContainer {
+  height: 100%;
+}
+.leftList {
+  display: inline;
+  vertical-align: middle;
+}
+.leftList li {
+  display: inline;
+  margin: 0 1em;
+  vertical-align: middle;
+}
+.rightList {
+  display: inline;
+  vertical-align: middle;
+}
+.rightList li {
+  display: inline;
+  margin: 0 1em;
+  vertical-align: middle;
+}
+.rightList li a,
+.leftList li a {
+  color: #fff;
+  /* text-shadow: 1px 2px 3px rgba(0, 0, 0, 1); */
+}
+.rightList li:hover,
+.leftList li:hover {
+  text-decoration: underline;
+  /* text-shadow: 1px 2px 3px rgba(0, 0, 0, 1); */
+}
+.rightList li div:hover,
+.leftList li div:hover {
+  text-decoration: underline;
+}
+.leftList li a div {
+  display: inline;
+}
+.rightList li a div {
+  display: inline;
+}
+.logo {
+  position: relative;
+  display: block;
+}
+.image div {
+  width: 100%;
+}
+.image {
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  display: block;
+}
+.centeredMenu {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+
+  text-align: center;
+}
+.fullMobileMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: 500;
+}
+.navBar {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  z-index: 300;
+  top: 0;
+  left: 0;
+  align-items: center;
+  vertical-align: middle;
+  margin-top: 3em;
+}
+.navBarRow {
+  height: 150px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  display: flex;
+}
+.navBarRowSticky {
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  z-index: 2;
+  top: 0;
+  background-color: #fff;
+}
+.portMenu {
+  background-color: rgba(78, 76, 76, 0.4);
+  border: none;
+  border-radius: 0px;
+}
+.portMenu li {
+  display: block;
+}
+.landingContainer {
+  height: 100%;
+}
+.landingImageIMG {
+  width: 100%;
+  height: auto;
+  position: fixed;
+}
+.landingImage {
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body,
+html {
+  height: 100%;
+}
+@media only screen and (max-width: 1600px) {
+  .navBarRow {
+    height: 115px;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .navBarRow {
+    height: 105px;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .rightList li,
+  .leftList li {
+    margin: 0 0.4em;
+  }
+  .navBarRow {
+    height: 105px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .rightList li,
+  .leftList li {
+    margin: 0 0.3em;
+    font-size: 12px;
+  }
+
+  .navBarRow {
+    height: 100px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .rightList li,
+  .leftList li {
+    margin: 0 0.3em;
+    font-size: 12px;
+  }
+
+  .navBarRow {
+    height: 100px;
+  }
+}
